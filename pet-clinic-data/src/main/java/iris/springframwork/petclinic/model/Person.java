@@ -1,4 +1,4 @@
-package iris.springframework.petclinic.model;
+package iris.springframwork.petclinic.model;
 
 public class Person {
 

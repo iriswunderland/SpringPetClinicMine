@@ -34,16 +34,22 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
     </build>
 
+    <!--<scm>-->
+        <!--<url>https://github.com/iriswunderland/SpringPetClinicMine.git</url>-->
+        <!--<connection>scm:git:git@github.com:iriswunderland/SpringPetClinicMine.git</connection>-->
+        <!--<developerConnection>scm:git:git@github.com:iriswunderland/SpringPetClinicMine.git</developerConnection>-->
+        <!--<tag>spring-pet-clinic-0.0.1</tag>-->
+    <!--</scm>-->
+
     <scm>
-        <url>https://github.com/iriswunderland/SpringPetClinicMine.git</url>
-        <connection>scm:git:git@github.com:iriswunderland/SpringPetClinicMine.git</connection>
         <developerConnection>scm:git:git@github.com:iriswunderland/SpringPetClinicMine.git</developerConnection>
-        <tag>spring-pet-clinic-0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <repositories>
